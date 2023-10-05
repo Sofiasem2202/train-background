@@ -1,153 +1,162 @@
-.task1 {
+.task1 .item {
+  position: absolute;
+  left: 200px;
+  bottom: 150px;
 }
 
-.task2 {
+.task2 .item {
+  position: absolute;
+  left: calc(50% - 40px);
+  bottom: calc(50% - 40px);
 }
 
-.task3 {
+.task3 .item {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.task4 {
+.container4 {
+	width: 1000px;
+}
+.task4 .item {
+  position: fixed;
+  top: 0;
+  left: calc(50% - 40px);
 }
 
-.task5 {
+.task5 .item1 {
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+.task5 .item2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+.task5 .item3 {
+  background-color: green;
+  position: absolute;
+  z-index: 3;
 }
 
-.task6 {
-  background-image: url('/img/img-400x200.jpg');
+.task6 .item {
+  float: left;
 }
 
-.task7 {
-  background-image: url('/img/img-400x200.jpg');
+.task7 .item {
+  float: right;
 }
 
-.task8 {
-  background-image: url('/img/img-400x200.jpg');
+.task8 .item1 {
+  float: left;
+}
+.task8 .item2 {
+  height: 120px;
+  float: right;
 }
 
-.task9 {
-  background-image: url('/img/img-400x200.jpg');
+.task8 p {
+  clear: both;
 }
 
-.task10 {
-  background-image: url('/img/img-400x200.jpg');
+.task9 .item1 {
+  height: 200px;
+  float: left;
+}
+.task9 .item2 {
+  float: right;
+}
+.task9 p {
+  clear: right;
 }
 
-.task11 {
-  background-image: url('/img/img-400x200.jpg');
+.task10 .item1 {
+  float: left;
+}
+.task10 .item2 {
+  height: 200px;
+  float: right;
+}
+.task10 p {
+  clear: left;
 }
 
-.task12 {
-  background-image: url('/img/img-400x200.jpg');
+.task11 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.task13 {
-  background-image: url('/img/img-400x200.jpg');
+.task12 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.task14 {
-  background-image: url('/img/img-400x200.jpg');
+.task13 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
-.task15 {
-  background-image: url('/img/img-400x200.jpg');
+.task14 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
 }
 
-.task16 {
-  background-image: url('/img/img-400x200.jpg');
+.task15 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  object-position: right;
 }
 
-.task17 {
-  background-image: url('/img/img-400x200.jpg');
+.task16 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  object-position: top left;
 }
 
-.task18 {
-  background-image: url('/img/img-400x200.jpg');
+.task17 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  object-position: bottom;
 }
 
-.task19 {
-  background-image: url('/img/img-400x200.jpg');
+.task18 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  object-position: 40px 25px;
+}
+
+.task19 .img-item {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  object-position: center;
 }
 
 .task20 {
-  background-image: url('/img/img-400x200.jpg');
+  user-select: none;
 }
 
 .task21 {
-  background-image: url('/img/img-400x200.jpg');
+  user-select: all;
 }
 
 .task22 {
-  background-image: url('/img/img-400x200.jpg');
+  caret-color: blue;
 }
 
-.task23 {
-  background-image: url('/img/img-400x200.jpg');
-}
-
-.task24 {
-  background-image: url('/img/img-400x200.jpg');
-}
-
-.task25 {
-  border: 20px dashed black;
-  background-image: url('/img/img-400x200.jpg');
-  box-sizing: border-box;
-}
-
-.task26 {
-  background-image: url('/img/img-400x200.jpg');
-  border: 20px dashed black;
-  box-sizing: border-box;
-}
-
-.task27 {
-  background-image: url('/img/img-400x200.jpg');
-  font-size: 120px;
-  font-weight: 900;
-  color: transparent;
-}
-
-.task28 {
-  background-image: url('/img/img-400x200.jpg');
-  box-sizing: border-box;
-  border: 20px dashed black;
-  background-repeat: no-repeat;
-}
-
-.task29 {
-  background-image: url('/img/img-400x200.jpg');
-  box-sizing: border-box;
-  border: 20px dashed black;
-  padding: 20px;
-  background-repeat: no-repeat;
-}
-
-.task30 {
-  background-image: url('/img/img-400x200.jpg');
-  box-sizing: border-box;
-  border: 20px dashed black;
-  background-repeat: no-repeat;
-  font-size: 100px;
-  font-weight: 900;
-  padding: 60px;
-}
-
-.task31 {
-  border-image-slice: 1%;
-  border-image-width: 40px;
-  box-sizing: border-box;
-}
-
-.task32 {
-  border-image-slice: 1%;
-  border-image-width: 40px;
-  box-sizing: border-box;
-}
-
-.task33 {
-  border-image-source: url('/img/img-400x200.jpg');
-  box-sizing: border-box;
-  border-image-width: 40px;
-  border-image-slice: 10;
+html {
+  scroll-behavior: smooth;
 }
